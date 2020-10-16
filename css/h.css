@@ -1,0 +1,48 @@
+body{
+    margin: .5%;
+    padding: .5%;
+    background-image:url("/img/ism.jpg");
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  backgroun
+}
+h1,h2{
+    margin-top:0;
+}
+
+.blk{
+    float:left
+}
+li>a{
+    color:#e7e6df;
+    font-size: 2em;
+}
+#stk{display: flex;
+    position: sticky;
+}
+div >img{
+    max-height: 420px;
+    max-width: 800px;
+}
+#cba{
+    margin:auto;
+}
+
+figure >img:hover{
+    
+    transform: rotateY(-360deg);
+  -webkit-transform: rotateY(-360deg);
+  -o-transform: rotateY(-360deg);
+  -moz-transform: rotateY(-360deg);
+  transition: 3s;
+  transition-timing-function:ease-in-out
+}
+img.pk:hover{
+   
+    transform: rotateX(360deg);
+    
+    transition: 3s;
+    transition-timing-function:ease-in-out
+}
