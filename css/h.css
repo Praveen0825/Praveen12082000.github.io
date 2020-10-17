@@ -17,7 +17,7 @@ h1,h2{
 }
 li>a{
     color:#e7e6df;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 #stk{display: flex;
     position: sticky;
